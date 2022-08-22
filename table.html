@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tables
+        </title>
+        <style>
+            table,th,td{
+                border: 2px solid black;
+                /* border-style: dotted; */
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Employee Details</caption>
+            <tr>
+                <th>No</th>
+                <th colspan="2.0">Employee Name</th>
+                <th><label for="Department">Department</label></th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Punitha</td>
+                <td>Shunmugam</td>
+                <td rowspan="2.0"><select name="Department" id="Department">
+                    <option value="Engieering">Engineering</option>
+                    <option value="Sales and Marketting">Sales and Marketting</option>
+                </select> </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sumathi</td>
+                <td>Sivakumar</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lakshmi</td>
+                <td>Sundaravel</td>
+                <td><select name="Department" id="Department">
+                    <option value="Engieering">Engineering</option>
+                    <option value="Sales and Marketting">Sales and Marketting</option>
+                </select> </td>
+            </tr>
+        </table>
+    </body>
+</html>
