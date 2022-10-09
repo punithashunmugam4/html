@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="myScript.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <input type="text" id="input-content">
+            <button id="add">Add</button>
+            <br><br>
+            <button id="join">Join</button>
+            <button id="even">Filter even</button>
+            <button id="odd">Filter Odd</button>
+            <br>
+            <p id="error">Wrong Input!!</p>
+            <p id="result"></p>
+        </div>
+        <!-- <script>
+            // document.getElementById("error").innerHTML="khbsvub";
+            var inputArray=document.getElementById("input-content");
+            var a=document.getElementById("add");
+            var e=document.getElementById("even"); 
+            var j=document.getElementById("join");
+            var o=document.getElementById("odd");
+            var disp=document.getElementById("result");
+            var er=document.getElementById("error");
+            // var inp=inputArray.value;
+            // for(let i=0;i<inp.length;i++){
+            // console.log(isNaN(inp[i]));
+            // console.log(inp[i]+" ");
+            // }
+           a.addEventListener('click',()=>{
+            var arr=inputArray.value.split(",");
+           var model=()=>{for(let i=0;i<arr.length;i++){
+                if(!isNaN(arr[i])){
+                    console.log(false);
+                    return false;
+                }
+                console.log(true);
+                return true;
+            }
+        }
+            if(model==true){
+            console.log(arr);
+            document.getElementById("error").innerHTML=JSON.stringify(arr);
+            }
+        })
+        </script> -->
+    </body>
+</html>

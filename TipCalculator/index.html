@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tip Calculator</h1>
+    <div id="total-content">
+        <div id="inputs">
+            <label for="amount">Bill</label><br>
+            <input id="amount" type="number" placeholder="0" ><br>
+            <label for="percent">Select tip %</label><br>
+            <button id="one" class="num" value="0.05">5%</button>
+            <button id="two" class="num"  value="0.1">10%</button>
+            <button id="three" class="num"  value="0.15">15%</button><br>
+            <button id="four" class="num"  value="0.25">25%</button>
+            <button id="five" class="num"  value="0.5">50%</button>
+            <button id="six" class="custom"  value="">custom</button><br>
+            <input type="number" class="customInput" placeholder="Give tip %"> 
+            <label for="people">Number of people</label><br>
+            <input id="people" type="number" placeholder="0"><br>
+        </div>
+        <div id="result">
+            <div id="res">
+            <div id="lab">
+                <p class="head">Tip Amount</p>
+                <p class="tail">/person</p>
+                <p class="head">Total</p>
+                <p class="tail">/person</p>
+            </div>
+            <div id="dollor">
+                <p id="resultTip">$0.00</p>
+                <p id="resultAmount">$0.00</p>
+            </div>
+        </div>
+        <button id="reset" disabled>Reset</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 50%;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container .info {
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+.container form textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 4px;
+    font-size: 18px;
+    outline: none;
+    padding: 12px;
+    border-color: #dcdde1;
+}
+
+.container form button {
+    display: block;
+    border: none;
+    padding: 10px 35px;
+    background-color: rgb(234, 168, 231);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 2rem auto;
+}
+
+.container form button:hover {
+    cursor: pointer;
+}
+
+.container .notes .note {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #dcdde1;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.delete{
+    width: 50px;
+}
+.delete img {
+    width: 10px;
+    height: 10px;
+}
+
+.actions {
+    text-align: end;
+}

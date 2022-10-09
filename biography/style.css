@@ -1,0 +1,52 @@
+body{
+    margin:3% 10% 10% 10%;
+}
+h1,h2{
+    text-align: center;
+}
+#sec1{
+    float: left;
+}
+img{
+    width: 70%;
+    height:70%;
+}
+#table1{
+   text-align: left;
+}
+p{
+    text-indent: 10%;
+    text-align: justify;
+}
+#footer{
+    background-color: lightblue;
+    text-align: center;
+}
+#footer>p{
+    text-align: center ;
+}
+.fa:hover {
+    opacity: 0.7;
+  }
+.fa, #footer>a {
+    font-style: italic;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+  }
+  .fa-twitter{
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
