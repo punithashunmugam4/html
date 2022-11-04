@@ -84,22 +84,23 @@ input{
 } 
 
 @media screen and  (max-width:900px) {
-    #total-content{
+
+   h1,#total-content{
         width: 70%;
     }
 }
 @media screen and  (max-width:520px) {
-    #total-content{
+    h1,#total-content{
         width: 90%;
     }
 }
 @media screen and  (max-width:410px) {
-    #total-content{
+   h1,#total-content{
         width: 100%;
     }
 }
 @media screen and  (max-width:370px) {
-    #total-content{
+   h1,#total-content{
         width: 100%;
         flex-direction: column;
     }
